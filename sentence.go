@@ -183,6 +183,8 @@ func Parse(raw string) (Sentence, error) {
 			return newGGA(s)
 		case TypeGSA:
 			return newGSA(s)
+		case TypeGST:
+			return newGST(s)
 		case TypeGLL:
 			return newGLL(s)
 		case TypeVTG:

@@ -37,6 +37,7 @@ At this moment, this library supports the following sentence types:
 | [GSA](http://aprs.gids.nl/nmea/#gsa)                                                | GPS DOP and active satellites                                       |
 | [GSV](http://aprs.gids.nl/nmea/#gsv)                                                | GPS Satellites in view                                              |
 | [GLL](http://aprs.gids.nl/nmea/#gll)                                                | Geographic Position, Latitude / Longitude and time                  |
+| [GST](https://gpsd.gitlab.io/gpsd/NMEA.html#_gst_gps_pseudorange_noise_statistics)  | Position error statistics                                           |
 | [VTG](http://aprs.gids.nl/nmea/#vtg)                                                | Track Made Good and Ground Speed                                    |
 | [ZDA](http://aprs.gids.nl/nmea/#zda)                                                | Date & time data                                                    |
 | [HDT](http://aprs.gids.nl/nmea/#hdt)                                                | Actual vessel heading in degrees True                               |
